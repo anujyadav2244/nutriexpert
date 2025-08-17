@@ -105,8 +105,7 @@ Breakfast Options:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/NutriExpert-AI.git
-cd NutriExpert-AI
+https://github.com/anujyadav2244/nutriexpert.git
 ```
 
 ### 2. Run the program
