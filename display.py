@@ -80,9 +80,11 @@ def display_results(user, nutritional_needs, recommendations):
     print(f"Age: {user.age}")
     print(f"Gender: {user.gender}")
     print(f"Activity Level: {user.activity_level}")
+    
     print("\n--- Nutritional Needs ---")
     for key, value in nutritional_needs.items():
-        print(f"{key}: {value}")
+        print(f"{key.capitalize()}: {value}")
+
     print("\n--- Recommendations ---")
     for recommendation in recommendations:
-        print(f"- {recommendation}")
+        print(f"- {recommendation['message']}")
